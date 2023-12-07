@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to NCCF || Delta State Chapter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Keywords" content="NCCFDelta, NCCF, Delta State, Nigeria Christian Corpers' Fellowship, Videos, Pictures, Livestream, Radio, Audio, Downloads, Nigeria, corpers, Pa S.G Elton, Christian Association of Nigeria, Bro Gbile Akanni, Nigeria, National Youth Service Commission">
+    <meta name="Copyright" content="Nigeria Christian Corpers' Fellowship || Delta State Chapter">
+    <link rel="shortcut icon" href="assets/css/images/Picture2.png">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+
+    <style>
+      .modal-header {
+          background-color: #262626; 
+          color: white;
+      }
+      .modal-body p {
+          font-size: 14px;
+          color: #1d1d1d; 
+      }
+      .modal-img {
+          width: 100%; 
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .modal-dialog {
+          margin-top: 10%; 
+      }
+  </style>
+
+
+</head>
+
+<body class="loading">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+            <!-- Header -->
+            <header id="header">
+                <style>
+                    h1, h2 {
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Horizontal offset, vertical offset, blur radius, color */
+                    }
+                </style>
+                <h1><img width="10%"  src="assets/css/images/Picture2.png"/></h1>
+                <h1 style="opacity:0.65;">NIGERIA <span style="color:#fff;">CHRISTIAN </span><span style="color: white"><br>CORPERS' </span><span style="color:#fff;">FELLOWSHIP</span></h1>
+                <h2 style="opacity: 0.65; color:yellow">&nbsp;&bull;&nbsp; DELTA STATE CHAPTER &nbsp;&bull;&nbsp;</h2>
+                <nav>
+                    <ul>
+                        <li><a href="./home/index.html" class="icon fa-home" style="color:yellow"><span class="label">Home</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Footer -->
+            <footer id="footer"></footer>
+        </div>
+    </div>
+    
+    <!-- Welcome Modal -->
+    <div id="welcomeModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #1d1d1d;">
+                    <button type="button" class="close" data-dismiss="modal" style="color:white">&times;</button>
+                    <h4 class="modal-title" align="center" style="color:rgb(223, 223, 223);"><b>Dearly Beloved,</b></h4>
+                </div>
+                <div class="modal-body " style="height: 210px; overflow: auto;">
+                    <div class="row">
+                        <div class="col-md-4 col-xs-4" >
+                            <img src="assets/papo.jpg" class="img-responsive" alt="About">
+                        </div>
+                        <div class="col-md-8 col-xs-8" >
+                            <p align="left">I am so delighted to have you here, and I welcome you very specially to our chapter's website. We are indeed privileged to have such an awesome responsibility to spread the glorious gospel of our Lord and Saviour Jesus Christ through the nooks and crannies of Delta State. 
+                            </p>
+                            <p> <b>Okporie Uchechukwu Orji</b> <br> NCCF Delta State President <br> (2023/24) </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script type="text/javascript" src="assets/js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script>
+        window.onload = function() { document.body.className = ''; }
+        window.ontouchmove = function() { return false; }
+        window.onorientationchange = function() { document.body.scrollTop = 0; }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#welcomeModal').modal('show');
+        });
+    </script>
+</body>
+</html>
